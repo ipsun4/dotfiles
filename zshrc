@@ -101,4 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias telnethack="ssh nethack@alt.org"
-
+alias rs="exa"
