@@ -4,18 +4,25 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/ivan/.oh-my-zsh
 
+# Colors
+export TERM="xterm-256color"
+
 # Tiny Care Terminal
   export TTC_WEATHER="Cleveland"
   export TTC_Celsius=false
   export TTC_APIKEYS=false
-  export TTC_REPOS='~/dnd/,~/School/EECS325/,~/phonespam'
+  export TTC_REPOS='~/dnd/,~/School/EECS325/,~/phonespam, ~/School/2018_spring_395_rre'
   export TTC_GITBOT='gitlog'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="spaceship"
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_PROMPT_SEPARATE_LINE=false
+SPACESHIP_CHAR_SYMBOL=$ 
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -101,4 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias telnethack="ssh nethack@alt.org"
-alias rs="exa"
+alias ls="exa"
+
+## Notica
+#

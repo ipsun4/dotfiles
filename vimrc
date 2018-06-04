@@ -5,8 +5,8 @@ set ruler
 set shell=/bin/bash
 
 " Set Proper Tabs
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set smarttab
 set expandtab
 
@@ -28,6 +28,7 @@ Plugin 'posva/vim-vue'
 Plugin 'junegunn/goyo.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'dart-lang/dart-vim-plugin'
 
 " Ctrlp
 Plugin 'ctrlpvim/ctrlp.vim'
